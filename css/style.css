@@ -1,0 +1,68 @@
+@font-face {
+    font-family: "bebas";
+    src: url(../img/BebasNeue-Regular.ttf) format(trueType);
+}
+
+body{
+    background: url(../img/bg.jpg);
+    font-family: "bebas";
+    
+}
+.bg{
+    background: url(../img/cicruitlong.png) no-repeat;
+    object-fit: cover;
+        display: block;
+    margin: auto;
+    width: 1500px;
+    margin-top:  2em;
+    margin-bottom: -4em;
+}
+h1{
+    font-size: 3em;
+    color: rgb(216, 29, 29);
+    text-align: center;
+    letter-spacing: 2px;
+}
+h3{
+    margin-top: -2em;
+    color: rgb(227, 132, 8);
+    text-align: center;
+    letter-spacing: 2px;
+    margin-bottom: -1em;
+}
+
+#affichage {
+    height: 3em;
+    display: flex;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;  
+    font-size: 1em;
+    color: yellow;
+}
+canvas{
+
+    border: 2px solid black;
+    
+}
+
+#controls {
+    display: flex;
+    justify-content: center;
+    padding: 1em;
+    gap: 1em;
+}
+button{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5em;
+    border-radius: 5px;
+}
+#go{
+    background-color: lightgreen;   
+}
+#stop{
+    background-color: rgb(222, 67, 67);
+}
+#resetButton{
+    background-color: khaki;
+}

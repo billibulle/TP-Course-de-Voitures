@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <link href="./img/icons8-drapeau-à-damier-48.png" rel="icon" type="image/x-icon">
+    <title>La course infernalle</title>
+</head>
+<body>
+    <h1>THE RACE, 2 joueurs: <span></span></h1>
+    <h3>Touche 'Z' pour la voiture rouge <br> et touche 'P' pour la voiture bleue.</h3>
+    <div class="bg">
+        <canvas id="canvas" width="1500" height="650"></canvas></div>
+<div id="affichage">
+    <p id="cptRebour"></p>
+    <p id="winner"></p>
+</div>
+    
+    <br>
+    <div id="controls">
+        <button id="go">Go !</button>
+        <button id="stop">Stop !</button>
+        <button id="resetButton">Reset</button>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/js-confetti@latest/dist/js-confetti.browser.js"></script>
+
+    <!-- script ES6 -->
+    <script src="js/scriptES6.js"></script>
+    
+    <!-- script ES5 -->
+    <!-- <script src="./js/scriptES5.js"></script> -->
+</body>
+</html>
